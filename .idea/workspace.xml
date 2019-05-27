@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48bd707a-abf4-4a0a-8843-d467e9ccd986" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/workshop_playground/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1735">
+              <caret line="107" column="15" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#44#0" />
+                <element signature="e#46#133#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/workshop_playground/core.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="178" />
+    <option name="y" value="116" />
+    <option name="width" value="2071" />
+    <option name="height" value="1182" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alza-clj" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="ReplState" timestamp="1558968886744">{:repl-history {:ide [], :local [{:command &quot;(identity 5)&quot;, :offset 11, :ns &quot;workshop-playground.core&quot;} {:command &quot;(filter identity [1 \&quot;\&quot; -2 '() [1 2], \&quot;false\&quot;, nil, false])&quot;, :offset 13, :ns &quot;workshop-playground.core&quot;} {:command &quot;(remove identity [1 \&quot;\&quot; -2 '() [1 2], \&quot;false\&quot;, nil, false])&quot;, :offset 58, :ns &quot;workshop-playground.core&quot;} {:command &quot;(if true \&quot;was true\&quot; \&quot;was false\&quot;)&quot;, :offset 32, :ns &quot;workshop-playground.core&quot;} {:command &quot;(if false \&quot;was true\&quot; \&quot;was false\&quot;)&quot;, :offset 9, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def x 15)&quot;, :offset 10, :ns &quot;workshop-playground.core&quot;} {:command &quot;(cond\n    (and (= 0 (mod x 3)) (= 0 (mod x 5))) \&quot;fizzbuzz\&quot;\n    (= 0 (mod x 3)) \&quot;fizz\&quot;\n    (= 0 (mod x 5)) \&quot;buzz\&quot;\n    :else x)&quot;, :offset 125, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map fb (range 1 101))&quot;, :offset 22, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map fb (range 1 20))&quot;, :offset 19, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn fb [x]\n  (cond\n      (and (= 0 (mod x 3)) (= 0 (mod x 5))) \&quot;fizzbuzz\&quot;\n      (= 0 (mod x 3)) \&quot;fizz\&quot;\n      (= 0 (mod x 5)) \&quot;buzz\&quot;\n      :else x))&quot;, :offset 15, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn my-double [x] (* 2 x))&quot;, :offset 26, :ns &quot;workshop-playground.core&quot;} {:command &quot;(my-double 2)&quot;, :offset 12, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn my-double\n  \&quot;returns x times two\&quot;\n  [x]\n  (* 2 x))&quot;, :offset 38, :ns &quot;workshop-playground.core&quot;} {:command &quot;(doc my-double)&quot;, :offset 14, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def fn [x] (* 2 1))&quot;, :offset 18, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def my-double2 (fn [x] (* 2 1)))&quot;, :offset 33, :ns &quot;workshop-playground.core&quot;} {:command &quot;(my-double 7)&quot;, :offset 12, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def my-double2 (fn [x] (* 2 x)))&quot;, :offset 33, :ns &quot;workshop-playground.core&quot;} {:command &quot;(my-double2 7)&quot;, :offset 11, :ns &quot;workshop-playground.core&quot;} {:command &quot;(fn [x] (* 2 x))&quot;, :offset 16, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn ... [x] (* 2 x))&quot;, :offset 22, :ns &quot;workshop-playground.core&quot;} {:command &quot;(... 2)&quot;, :offset 6, :ns &quot;workshop-playground.core&quot;} {:command &quot;#(* 2 %)&quot;, :offset 8, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def md #(* 2 %))&quot;, :offset 17, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def md #(* 2 %1 %2))&quot;, :offset 21, :ns &quot;workshop-playground.core&quot;} {:command &quot;(md 2)&quot;, :offset 5, :ns &quot;workshop-playground.core&quot;} {:command &quot;(md 2 9)&quot;, :offset 7, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map #(* 11 %) (range 6))&quot;, :offset 25, :ns &quot;workshop-playground.core&quot;} {:command &quot;(hello)&quot;, :offset 6, :ns &quot;workshop-playground.core&quot;} {:command &quot;(hello \&quot;bob\&quot;)&quot;, :offset 11, :ns &quot;workshop-playground.core&quot;} {:command &quot;(hello \&quot;bob\&quot; \&quot;jim\&quot; \&quot;tim\&quot;)&quot;, :offset 23, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn hello\n  ([] \&quot;hello, world!\&quot;)\n  ([name] (str \&quot;hello, \&quot; name \&quot;!\&quot;))\n  ([fst &amp; rest ] (str \&quot;hello, \&quot; fst \&quot; and also \&quot; (clojure.string/join \&quot;, \&quot; rest) \&quot;!\&quot;)))&quot;, :offset 158, :ns &quot;workshop-playground.core&quot;} {:command &quot;(hello \&quot;bob\&quot; \&quot;jim\&quot; \&quot;tim\&quot; \&quot;tom\&quot;)&quot;, :offset 29, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn contains-val? [coll val]\n  (cond \n    (empty? false)\n    ((= (first coll) val) true)\n    (:else (contains-val? (rest coll) val))))&quot;, :offset 136, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn contains-val? [coll val]\n  (cond \n    (empty? coll) false\n    ((= (first coll) val) true)\n    (:else (contains-val? (rest coll) val))))&quot;, :offset 141, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn contains-val? [coll val]\n  (cond \n    (empty? coll) false\n    ((= (first coll) val)) true\n    (:else (contains-val? (rest coll) val))))&quot;, :offset 141, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn contains-val? [coll val]\n  (cond \n    (empty? coll) false\n    (= (first coll) val) true\n    (:else (contains-val? (rest coll) val))))&quot;, :offset 139, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn contains-val? [coll val]\n  (cond \n    (empty? coll) false\n    (= (first coll) val) true\n    :else (contains-val? (rest coll) val)))&quot;, :offset 137, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? [1 2 3] 3)&quot;, :offset 24, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? [1 2 3] :b)&quot;, :offset 26, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 20000) :b)&quot;, :offset 28, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 5000) :b)&quot;, :offset 26, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 10000) :b)&quot;, :offset 26, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 15000) :b)&quot;, :offset 24, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 55000) :b)&quot;, :offset 23, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 55000) 20)&quot;, :offset 31, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn contains-val? [coll val]\n  (cond \n    (empty? coll) false\n    (= (first coll) val) true\n    :else (recur (rest coll) val)))&quot;, :offset 129, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 55000) 55499)&quot;, :offset 35, :ns &quot;workshop-playground.core&quot;} {:command &quot;(contains-val? (range 55000) 54888)&quot;, :offset 34, :ns &quot;workshop-playground.core&quot;} {:command &quot;(defn len [coll]\n  (loop [remaining coll\n         acc 0]\n    (if (empty? remaining)\n      acc\n      (recur (rest remaining) (inc acc)))))&quot;, :offset 137, :ns &quot;workshop-playground.core&quot;} {:command &quot;(len (range 70000))&quot;, :offset 17, :ns &quot;workshop-playground.core&quot;} {:command &quot;(rest [1 2 3])&quot;, :offset 12, :ns &quot;workshop-playground.core&quot;} {:command &quot;(Math/abs -20)&quot;, :offset 14, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def now (new java.util.Date))&quot;, :offset 30, :ns &quot;workshop-playground.core&quot;} {:command &quot;(.getHours now)&quot;, :offset 14, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def point (new java.awt.Point 10 20))&quot;, :offset 38, :ns &quot;workshop-playground.core&quot;} {:command &quot;(.y point)&quot;, :offset 9, :ns &quot;workshop-playground.core&quot;} {:command &quot;(.getY point)&quot;, :offset 6, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; [20 884 912 49 234 590401 19285 95014 5085 203985 203958 23]\n    sort\n    reverse\n    inc\n    (#(filter odd? %)))&quot;, :offset 117, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; [20 884 912 49 234 590401 19285 95014 5085 203985 203958 23]\n    sort\n    reverse\n    (#(filter odd? %)))&quot;, :offset 109, :ns &quot;workshop-playground.core&quot;} {:command &quot;(filter odd? (reverse (sort [20 884 912 49 234 590401 19285 95014 5085 203985 203958 23])))&quot;, :offset 9} {:command &quot;(Math/PI)&quot;, :offset 8, :ns &quot;workshop-playground.core&quot;} {:command &quot;Math/PI&quot;, :offset 7, :ns &quot;workshop-playground.core&quot;} {:command &quot;(12)&quot;, :offset 3, :ns &quot;workshop-playground.core&quot;} {:command &quot;12&quot;, :offset 0, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; clj-http.client/get \&quot;https://www.google.com\&quot;)&quot;, :offset 49, :ns &quot;workshop-playground.core&quot;} {:command &quot;(ns workshop-playground.core\n  (:gen-class)\n  (:require [clj-http.client/get]))&quot;, :offset 79, :ns &quot;workshop-playground.core&quot;} {:command &quot;(ns workshop-playground.core\n  (:gen-class)\n  (:require [clj-http.client :as client]))&quot;, :offset 86, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; client/get \&quot;https://www.google.com\&quot;)&quot;, :offset 39, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;))&quot;, :offset 5, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(get % \&quot;Countent-Type\&quot;)))&quot;, :offset 86, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    type)&quot;, :offset 63, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :body\n    clojure.string/includes? \&quot;google\&quot;)\n    &quot;, :offset 88, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :body\n    (#(clojure.string/includes? % \&quot;google\&quot;)))\n    &quot;, :offset 97, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :body\n    (#(clojure.string/includes? % \&quot;Vyhledávání\&quot;)))\n    &quot;, :offset 98, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers)&quot;, :offset 54, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    \&quot;Content-Type\&quot;)&quot;, :offset 72, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def hdrs (:headers (client/get \&quot;https://www.google.com/)))&quot;, :offset 56, :ns &quot;workshop-playground.core&quot;} {:command &quot;(def hdrs (:headers (client/get \&quot;https://www.google.com/\&quot;)))&quot;, :offset 60, :ns &quot;workshop-playground.core&quot;} {:command &quot;(hdrs \&quot;Content-Type\&quot;)&quot;, :offset 19, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    #(% \&quot;Content-Type\&quot;))&quot;, :offset 79, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(% \&quot;Content-Type\&quot;)))&quot;, :offset 81, :ns &quot;workshop-playground.core&quot;} {:command &quot;hdrs&quot;, :offset 4, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map inc {:a 1 :b 2})&quot;, :offset 19, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map #({%1 (inc %2) {:a 1 :b 2}}))&quot;, :offset 34, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map #({%1 (inc %2)) {:a 1 :b 2}}))&quot;, :offset 35, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map #({%1 (inc %2)}) {:a 1 :b 2})&quot;, :offset 34, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map (fn [[k v]] (prn k) (prn v)) {:a 1 :b 2})&quot;, :offset 46, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map (fn [[k v]] {(clojure.string/lower-case k) v}))&quot;, :offset 52, :ns &quot;workshop-playground.core&quot;} {:command &quot;(map (fn [[k v]] {(clojure.string/lower-case k) v}) {\&quot;askjdf\&quot; \&quot;asdlfj\&quot; \&quot;laksdjf\&quot; \&quot;lkajsdf\&quot;})&quot;, :offset 89, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    #((map (fn [[k v]] {(clojure.string/lower-case k) v}))% ))&quot;, :offset 116, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    #((map (fn [[k v]] {(clojure.string/lower-case k) v})))% )&quot;, :offset 116, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(map (fn [[k v]] {(clojure.string/lower-case k) v})))%)&quot;, :offset 61, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(map (fn [[k v]] {(clojure.string/lower-case k) v})) %))&quot;, :offset 117, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(map (fn [[k v]] {(clojure.string/lower-case k) v})% )))&quot;, :offset 117, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(map (fn [[k v]] {(clojure.string/lower-case k) v})%))\n    first)&quot;, :offset 125, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(map (fn [[k v]] {(clojure.string/lower-case k) v})%))\n    (#(% \&quot;content-type\&quot;)))&quot;, :offset 138, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (#(map (fn [[k v]] {(clojure.string/lower-case k) v})%))\n    (#(get % \&quot;content-type\&quot;)))&quot;, :offset 146, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (map (fn [[k v]] {(clojure.string/lower-case k) v}))\n    (#(get % \&quot;content-type\&quot;)))&quot;, :offset 110, :ns &quot;workshop-playground.core&quot;} {:command &quot;(-&gt; (client/get \&quot;https://www.google.com\&quot;)\n    :headers\n    (map (fn [[k v]] {(clojure.string/lower-case k) v})))&quot;, :offset 85, :ns &quot;workshop-playground.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Clojure REPL.REPL">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="workshop-playground" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="workshop-playground" />
+      <setting name="path" value="$PROJECT_DIR$/src/workshop_playground/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/workshop_playground" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Clojure Application.core" />
+      <item itemvalue="Clojure REPL.REPL" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.core" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="178" y="116" width="2071" height="1182" extended-state="1" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25466466" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26920208" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32935154" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="make" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info active="true" anchor="right" id="REPL" order="7" side_tool="true" visible="true" weight="0.50024694" />
+      <window_info anchor="right" id="Leiningen" order="8" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/lang/IEditableCollection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/lang/Atom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="33" column="56" selection-start-line="7" selection-start-column="28" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0-sources.jar!/clojure/lang/ARef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0-sources.jar!/clojure/lang/Atom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="154" column="8" lean-forward="true" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_102/src.zip!/java/awt/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="993" column="31" lean-forward="true" selection-start-line="993" selection-start-column="31" selection-end-line="993" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workshop_playground/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1735">
+          <caret line="107" column="15" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#44#0" />
+            <element signature="e#46#133#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
